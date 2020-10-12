@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: rgb(236, 240, 241);
+	font-family: "Times New Roman", Times, serif;
+}
+.container{
+	max-width: 1000px;
+	background-color: rgb(236, 240, 241);
+	margin: 0 auto;
+	padding: 20px;
+}
+.header{
+
+
+}
+.image{
+	height: 120;
+	width: 100px;
+	border: 3px solid light grey ;
+	border-radius: 50%;
+	float: left;
+
+}
+.bio-header{
+	float: left;
+	padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+	color:rgb(196, 59, 90 );
+}
+.contarct-header{
+	float: right;
+	padding: 30px;
+}
+.contarct-header a{
+	text-decoration:none;
+	color: rgb(211, 84, 0);
+	font-weight: bold;
+
+}
+.contarct-header a:hover{
+	text-decoration: underline;
+	color: tomato;
+
+}
+.clear-div{
+	clear: both;
+}
+hr{
+	border: 3px solid rgb(196, 68, 59);
+	width: 100%;
+	margin: 20px auto;
+	border-bottom: none;
+}
+/*personal sectiom*/
+#personal-section{
+
+}
+.content{
+
+}
+.left-div{
+	width: 30%;
+		float: left;
+
+}
+.right-div{
+
+	width: 70%;
+	float:left; ;
+
+}
+.common-hr{
+	border: 1px solid rgb(196, 68, 59);
+	width: 100%;
+	margin: 20px auto;
+	border-bottom: none;
+
+}
+.bottom-container{
+	background-color: black;
+	text-align: center;
+	padding: 10px;
+}
+.bottom-container a{
+	color: white;
+	text-decoration: none;
+	margin: 20px;
+}
+.bottom-container p{
+	color: white;
+	margin-top: 20px;
+}
